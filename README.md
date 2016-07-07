@@ -1,23 +1,38 @@
-# Primitives-and-Graph-Processing-on-GPU
-##CPP Codes Repositories  
-- [Map-Reduce on CPU & MPI by haptork](https://github.com/haptork/easyLambda)  
+# Primitives & Graph Processing
+##CPU-Related  
+- [Map-Reduce](https://github.com/haptork/easyLambda)  
   - Modular, parallel, based on data-flow with map and reduce
+- [Task Queue](https://github.com/bakercp/ofxTaskQueue)   
+- [Thread Pool](https://github.com/progschj/ThreadPool)
+- [faunus on Hadoop](https://github.com/thinkaurelius/faunus)   
+
+##Document
 - [Modern CPP Concurrency Programming by forhappy](https://github.com/forhappy/Cplusplus-Concurrency-In-Practice)      
   - A Detailed Cplusplus Concurrency Tutorial  
-- [Task Queue by bakercp](https://github.com/bakercp/ofxTaskQueue)   
-- [Thread Pool by progschj](https://github.com/progschj/ThreadPool)  
 
 ##GPU Related Repositories
-###Primary
-- [Medusa](https://github.com/JianlongZhong/Medusa)  
-- [Vertex-Centric API](https://github.com/RoyalCaliber/vertexAPI2)  
-- [High-Performance Graph Primitives on GPUs](https://github.com/gunrock/gunrock)  
-- [Asynchronous Graph Processing on GPU with Hybrid Coloring Model](https://github.com/AndrewStallman/Frog)  
-- [Multi-GPU Graph Processing](https://github.com/ACSAlab/olive)  
-- [A graph processing engine for hybrid CPU and GPU platforms](https://github.com/netsyslab/Totem)  
-
-###Advanced
-- [Nvidia Multi-GPU Primitives](https://github.com/NVIDIA/nccl)    
+###Primitives
+- [Nccl](https://github.com/NVIDIA/nccl)    
   - all-reduce, all-gather, reduce-scatter, reduce, broadcast  
-- [GPU Database Engine](https://github.com/antonmks/Alenka)  
-  - written to use vector based processing and high bandwidth of modern GPUs  
+- [Cub](https://github.com/NVlabs/cub)   
+  - CUB provides state-of-the-art, reusable software components for every layer of the CUDA programming model
+- [ModernGPU](https://github.com/moderngpu/moderngpu)
+  - moderngpu is a productivity library for general-purpose computing on GPUs. It is a header-only C++ library written for CUDA. The unique value of the library is in its accelerated primitives for solving irregularly parallel problems.
+
+###Primitives-OpenCL
+- [Boost.Compute](https://github.com/boostorg/compute)    
+- [Bolt](https://github.com/HSA-Libraries/Bolt)
+
+###Graph Processing Frameworks
+- [Medusa](https://github.com/JianlongZhong/Medusa)  
+- [GAS Vertex-Centric API](https://github.com/RoyalCaliber/vertexAPI2) [GraphReduce](https://github.com/dipanjans12/GraphReduce)   
+- [Gunrock](https://github.com/gunrock/gunrock)  
+- [Frog](https://github.com/AndrewStallman/Frog)  
+- [Olive](https://github.com/ACSAlab/olive)  
+- [Totem](https://github.com/netsyslab/Totem)  
+- [CuSha](https://github.com/farkhor/CuSha)  [CushaCPU](https://github.com/farkhor/MTCPU-VertexCentric  )
+- [Falcon](https://github.com/unniiisc/Falcon-A-Graph-Manipulation-Language-for-Heterogeneous-Systems)  
+
+###GPU GraphDB
+- [Alenka](https://github.com/antonmks/Alenka)  
+  - written to use vector based processing and high bandwidth of modern GPUs
