@@ -32,6 +32,12 @@
 - [Totem](https://github.com/netsyslab/Totem)  
 - [CuSha](https://github.com/farkhor/CuSha)  [CushaCPU](https://github.com/farkhor/MTCPU-VertexCentric  )
 - [Falcon](https://github.com/unniiisc/Falcon-A-Graph-Manipulation-Language-for-Heterogeneous-Systems)  
+- [MapGraph](https://github.com/CheYulin/MirrorOfMapGraph)  
+
+###Graph Processing Benchmarks
+- [graphalytics](https://github.com/tudelft-atlarge/graphalytics)   
+- [graphBig](https://github.com/graphbig/graphBIG)  
+- [distributed](https://github.com/xvz/graph-processing)
 
 ###GPU GraphDB
 - [Alenka](https://github.com/antonmks/Alenka)  
