@@ -1,17 +1,6 @@
 # Primitives & Graph Processing
-##CPU-Related  
-- [Map-Reduce](https://github.com/haptork/easyLambda)  
-  - Modular, parallel, based on data-flow with map and reduce
-- [Task Queue](https://github.com/bakercp/ofxTaskQueue)   
-- [Thread Pool](https://github.com/progschj/ThreadPool)
-- [faunus on Hadoop](https://github.com/thinkaurelius/faunus)   
-
-##Document
-- [Modern CPP Concurrency Programming by forhappy](https://github.com/forhappy/Cplusplus-Concurrency-In-Practice)      
-  - A Detailed Cplusplus Concurrency Tutorial  
-
 ##GPU Related Repositories
-###Primitives
+###Primitives-Cuda
 - [Nccl](https://github.com/NVIDIA/nccl)    
   - all-reduce, all-gather, reduce-scatter, reduce, broadcast  
 - [Cub](https://github.com/NVlabs/cub)   
@@ -23,16 +12,24 @@
 - [Boost.Compute](https://github.com/boostorg/compute)    
 - [Bolt](https://github.com/HSA-Libraries/Bolt)
 
+###Utilities
+- [VexCL](https://github.com/ddemidov/vexcl)
+  - VexCL is a vector expression template library for OpenCL/CUDA. It has been created for ease of GPGPU development with C++. VexCL strives to reduce amount of boilerplate code needed to develop GPGPU applications, supporting vector arithmetic, reduction, sparse matrix-vectork products, etc.
+- [EasyOpenCL](https://github.com/Gladdy/EasyOpenCL)
+  - Focus on programming the GPU instead of messing about with long C-style OpenCL function calls and manual memory management. CMake support for Linux and Mac - No more linking problems when you have installed the correct driver.
+- [Hpx](https://github.com/STEllAR-GROUP/hpx)
+  - A general purpose C++ runtime system for parallel and distributed applications of any scale http://stellar-group.org/libraries/hpx .
+
 ###Graph Processing Frameworks
 - [Medusa](https://github.com/JianlongZhong/Medusa)  
-- [GAS Vertex-Centric API](https://github.com/RoyalCaliber/vertexAPI2) [GraphReduce](https://github.com/dipanjans12/GraphReduce)   
 - [Gunrock](https://github.com/gunrock/gunrock)  
-- [Frog](https://github.com/AndrewStallman/Frog)  
-- [Olive](https://github.com/ACSAlab/olive)  
-- [Totem](https://github.com/netsyslab/Totem)  
 - [CuSha](https://github.com/farkhor/CuSha)  [CushaCPU](https://github.com/farkhor/MTCPU-VertexCentric  )
-- [Falcon](https://github.com/unniiisc/Falcon-A-Graph-Manipulation-Language-for-Heterogeneous-Systems)  
+- [Olive](https://github.com/ACSAlab/olive)  
+- [Frog](https://github.com/AndrewStallman/Frog)  
 - [MapGraph](https://github.com/CheYulin/MirrorOfMapGraph)  
+- [GAS Vertex-Centric API](https://github.com/RoyalCaliber/vertexAPI2) [GraphReduce](https://github.com/dipanjans12/GraphReduce)   
+- [Totem](https://github.com/netsyslab/Totem)  
+- [Falcon](https://github.com/unniiisc/Falcon-A-Graph-Manipulation-Language-for-Heterogeneous-Systems)  
 
 ###Graph Processing Benchmarks
 - [graphalytics](https://github.com/tudelft-atlarge/graphalytics)   
